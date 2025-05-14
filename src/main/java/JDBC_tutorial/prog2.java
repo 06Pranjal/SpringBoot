@@ -9,7 +9,7 @@ public class prog2 {
         String url="jdbc:mysql://localhost:3306/students";
         String username="root";
         String password= "123456";
-        String query="INSERT INTO Employees(id,name,job_title,salary) VALUES (3,'Harsh','Backend Engineer',90000.0);";
+        String query="INSERT INTO Employees(id,name,job_title,salary) VALUES (4,'Pranjal','UI/UX',95000.0);";
 
         try {
             Class.forName("com.mysql.jdbc.Driver");
