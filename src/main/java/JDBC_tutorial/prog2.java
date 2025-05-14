@@ -29,10 +29,13 @@ public class prog2 {
                 System.out.println("Insertion Failed");
             }
 
-
+            stmt.close();
+            con.close();
 
         }catch (SQLException e){
             System.out.println(e.getMessage());
         }
+
+
     }
 }
